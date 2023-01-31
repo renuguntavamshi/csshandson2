@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+    body{
+    border :5px solid green;
+    background-image: linear-gradient(to bottom, rgb(223, 226, 144) , rgb(186, 230, 133));
+    
+}
+.box{
+    border:4px solid red;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    border-radius: 22px;
+    text-align: center;
+    background-color: yellow;
+      padding:25px;
+      position: absolute;
+      color: rgb(44, 8, 122);
+      width: 300px;
+      font-size: 19px;
+}
+
+.header{
+
+position: relative;
+height: 250px;
+}
+.box1{
+    
+    left:50px;
+    top:40px;
+}
+.box2{
+    left:300px;
+    top: 40px;
+}
+.box3{
+    top: 55px;
+    right: 60px;
+}
+.circle{
+    background-color: azure;
+    border:4px solid red;
+     border-radius: 50%;
+     width: 350px;
+     height: 350px;
+     text-align: center;
+    position: relative;
+    left:55px;
+}
+.circle-content{
+    position: absolute;
+    font-weight: bold;
+    top: 97px;
+    line-height: 33px;
+}
+hr{
+    min-height: 1.5px;
+    background-color: grey;
+}
+.circlendform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.form{
+    position: relative;
+    right: 466px;
+    text-align: center;
+    width: 350px;
+    border: 3px dashed brown;
+}
+h1,label{
+    color:rgb(150, 11, 11);
+}
+.menubox{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.menubox>h2{
+    border: 4px solid rgb(249, 4, 4);
+    text-align: center;
+padding:10px 0px;
+    width: 400px;
+    border-radius: 19px;
+    background-color: yellow;
+}
+.foodmenu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.items{
+    border: 2px solid magenta;
+    border-radius: 18px;
+    width: 400px;
+    color:rgb(108, 6, 81);
+    margin:20px 0px;
+    text-align: center;
+    
+    background-color: rgb(243, 145, 210);
+}
+li{
+    position: relative;
+    left:50px;
+    text-indent: -100px;
+}
